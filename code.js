@@ -17,13 +17,13 @@ function divideAndConquerSum(a) {
     }
     else {
         for(let i = 0; i < athird; i++) {
-          aThirdArray.push(a[i]);
+            aThirdArray.push(a[i]);
         }
         for(let i = athird; i < atwothird; i++) {
-          aTwoThirdArray.push(a[i]);
+            aTwoThirdArray.push(a[i]);
         }
         for(let i = atwothird; i < a.length; i++) {
-          aLastThirdArray.push(a[i]);
+            aLastThirdArray.push(a[i]);
         }
         let sum1 = divideAndConquerSum(aThirdArray);
         let sum2 = divideAndConquerSum(aTwoThirdArray);
